@@ -22,7 +22,9 @@
 	
 	<modules>
         <module>hisdao</module>
-        <module>data_sync</module>        
+		<module>zmapdao</module>
+        <!--<module>data_sync</module>        	-->
+		<module>zmapapp</module>	
 	</modules>
 	
 	<dependencyManagement>

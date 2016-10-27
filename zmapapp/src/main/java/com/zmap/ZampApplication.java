@@ -5,14 +5,11 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
-@Configuration
-@EnableAutoConfiguration
-@EnableScheduling
-public class DataCollectionApplication {
+@SpringBootApplication
+public class ZampApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DataCollectionApplication.class, args);
+		SpringApplication.run(ZampApplication.class, args);
 	}
 }

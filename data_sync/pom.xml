@@ -9,7 +9,7 @@
 	</parent>
 
 	<artifactId>data_sync</artifactId>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>data sync</name>
 
 
@@ -20,13 +20,11 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
-
-
+		
 		<dependency>
-			<groupId>org.mybatis.spring.boot</groupId>
-			<artifactId>mybatis-spring-boot-starter</artifactId>
-			<version>1.1.1</version>
-		</dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>		
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -44,6 +42,29 @@
 			<groupId>com.zmap</groupId>
 			<artifactId>hisdao</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.39</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.0.11</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>1.8.9</version>
+		</dependency>
+
+		
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.8.9</version>
 		</dependency>
 
 	</dependencies>
